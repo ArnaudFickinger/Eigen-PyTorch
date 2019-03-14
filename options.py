@@ -21,7 +21,7 @@ class Options():
 
         self.parser.add_argument('--lr_G', type=float, default=0.0004, help='initial learning rate for adam of G')
 
-        self.parser.add_argument('--data_dir', type=str, default='../dataset/kitti/')
+        self.parser.add_argument('--data_dir', type=str, default='./data')
 
         self.parser.add_argument('--checkpoint_dir', type=str, default='./checkpoints', help='models are saved here')
 
